@@ -1,0 +1,15 @@
+# to run docker 
+docker up -d 
+docker compose -f 'docker-compose.yaml' up -d --build 
+
+# to execute docker 
+docker exec -it airflow-practice-airflow-scheduler-1 /bin/bash 
+
+# to exit docker container 
+Ctrl+d or exit 
+
+# to enter the psql ui 
+psql -Uairflow
+
+# to restart docker 
+docker compose down && docker compose up -d
