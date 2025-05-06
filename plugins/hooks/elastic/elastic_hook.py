@@ -1,7 +1,7 @@
 from airflow.plugins_manager import AirflowPlugin
 from airflow.hooks.base import BaseHook
 
-from elasticsearch import Elasticsearch
+from elasticsearch import Elasticsearch 
 
 class ElasticHook(BaseHook):
 
