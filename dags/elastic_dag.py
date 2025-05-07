@@ -1,6 +1,7 @@
 from airflow import DAG
 from airflow.operators.python import PythonOperator
-from plugins.hooks.elastic.elastic_hook import ElasticHook
+# from plugins.hooks.elastic.elastic_hook import ElasticHook
+from hooks.elastic.elastic_hook import ElasticHook
 from datetime import datetime
  
 def _print_es_info():
