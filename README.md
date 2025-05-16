@@ -5,8 +5,23 @@ This project aims to perform an introduction into Airflow, how to build DAG, lea
 
 Executive summary: 
 
-🔧 What I do:
+🔧 What I do in 'Introduction' Course :
 
     📥 Importing and loading the dataset from local storage
     🐳 Creating a container in Docker to run the Airflow
     🪁 Creating a data pipeline using Airflow
+    ⏰ Scheduling DAGs 
+    🗂️ Database excecutor 
+    🪁 Introduction into an advanced concepts of DAGs pipeline 
+    🧩 Introduction into Airflow Plugins 
+
+🔧 What I do in 'Hands-On' Course :
+
+    🚧 Creating end-to-end Airflow Project: Stock Market Pipeline Project 
+    🪁 Mastering DAGs  
+    ⏰ Implementing an advanced concepts of DAGs pipeline and scheduling
+    ⚖️ Scaling Airflow 
+    ⚙️ Deploying Airflow using Kubernetes and Rancher 
+    🖥️ Monitoring Airflow 
+    👮🏻‍♂️ Security in Apache Airflow 
+    
